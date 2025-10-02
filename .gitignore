@@ -1,0 +1,39 @@
+# ---- Python ----
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.egg-info/
+*.egg
+*.log
+
+# ---- Virtual environments ----
+.venv/
+env/
+venv/
+ENV/
+.conda/
+.ipynb_checkpoints/
+
+# ---- IDE / Editor ----
+.vscode/
+.idea/
+
+# ---- OS generated files ----
+.DS_Store
+Thumbs.db
+
+# ---- Project specific ----
+# Kaggle credentials
+.kaggle/
+
+# Data (don’t upload large datasets)
+data/
+
+# Outputs (optional: keep figures but ignore big CSVs)
+outputs/*.csv
+outputs/*.parquet
+outputs/*.json
+
+# Keep figures, ignore everything else in outputs/figures
+!outputs/figures/*.png
